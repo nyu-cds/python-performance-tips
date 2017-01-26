@@ -6,12 +6,12 @@
 carpentry: "swc"
 
 # Overall title for pages.
-title: "Lesson Title"
+title: "Python Performance Tips"
 
 # Contact.  This *must* include the protocol: if it's an email
 # address, it must look like "mailto:lessons@software-carpentry.org",
 # or if it's a URL, "https://gitter.im/username/ProjectName".
-contact: "mailto:lessons@software-carpentry.org"
+contact: "mailto:g.watson@computer.org"
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
@@ -22,15 +22,15 @@ kind: "lesson"
 
 # Magic to make URLs resolve both locally and on GitHub.
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
-repository: <USERNAME>/<PROJECT>
+repository: nyu-cds/python-performance-tips
 
 # Sites.
 amy_site: "https://amy.software-carpentry.org/workshops"
 dc_site: "http://datacarpentry.org"
-swc_github: "https://github.com/swcarpentry"
-swc_site: "https://software-carpentry.org"
-swc_pages: "https://swcarpentry.github.io"
-lc_site: "http://librarycarpentry.github.io/"
+swc_github: "https://github.com/nyu-cds"
+swc_site: "https://nyu-cds.github.io"
+swc_pages: "https://nyu-cds.github.io"
+lc_site: "http://nyu-cds.github.io/"
 template_repo: "https://github.com/swcarpentry/styles"
 example_repo: "https://github.com/swcarpentry/lesson-example"
 example_site: "https://swcarpentry.github.com/lesson-example"
