@@ -35,4 +35,5 @@ A good analysis of the Python interpreter is available [here](http://akaptur.com
 
 Although Python is a relatively slow language, that doesn't stop it from being useful for high
 performance computing or for Data Science applications. There are a variety of techniques that 
-can be used to improve performance, and we will be covering some of these here.
+can be used to improve performance, and we will be covering some of these here. A good reference
+for these and other performance tips is the [PythonSpeed PerformanceTips wiki](https://wiki.python.org/moin/PythonSpeed/PerformanceTips).
