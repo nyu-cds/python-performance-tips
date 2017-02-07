@@ -79,7 +79,7 @@ res=list(map(operator.add, random_numbers, random_numbers2))
 
 > ## Check Results
 >
-> >
+> 
 > Check how long the `my_min` function takes compared to the built-in `min` function. Which performs the best?
 >
 > Check how long it takes for each of the `map` statements to run. Which performs the best?
