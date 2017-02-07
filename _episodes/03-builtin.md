@@ -43,12 +43,6 @@ min(random_numbers)
 ~~~
 {: .python}
 
-> ## Check Results
->
-> Check how long the `my_min` function takes compared to the built-in `min` function. 
-Which performs the best?
-{: .challenge}
-
 Another performance improvement is to use _intrinsic operators_ (+, -, *, etc.)
 instead of a user defined function. The operator module exports a set of 
 efficient functions corresponding to the intrinsic operators of Python. For example, 
@@ -85,5 +79,8 @@ res=list(map(operator.add, random_numbers, random_numbers2))
 
 > ## Check Results
 >
-> Check how long it takes for each `map` statement to run. Which performs the best?
+> >
+> Check how long the `my_min` function takes compared to the built-in `min` function. Which performs the best?
+>
+> Check how long it takes for each of the `map` statements to run. Which performs the best?
 {: .challenge}
