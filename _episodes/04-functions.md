@@ -43,7 +43,7 @@ def aggregate(list):
         x = x + i
 
 def outer_2():
-    aggregate(range(10000))
+    aggregate(range(100000))
 ~~~
 {: .python}
 
