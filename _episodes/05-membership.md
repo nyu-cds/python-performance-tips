@@ -25,21 +25,23 @@ or set as your container rather than searching a list.
 > ## Membership Of A List
 >
 > ~~~
-> letters = [x for x in 'abcdefghijklmnopqrstuvwxyz'*1000+'%']
+> letters = 'abcdefghijklmnopqrstuvwxyz'
+> letters_list = [x+y+z for x in letters for y in letters for z in letters]
 > ~~~
 > {: .python}
 >
-> Time how long it takes to find 'a' in `letters`. Next, time how long it takes to find '%' in `letters`. 
-> Are they the same? Why?
+> Time how long it takes to find 'aaa' in `letters_list`. Next, time how long it takes to find 'zzz' in `letters_list`. 
+> Are they the same? Explain your findings?
 {: .challenge}
 
-> ## Membership Of A Set
+> ## Membership Of A Dict
 >
 > ~~~
-> letters = set('abcdefghijklmnopqrstuvwxyz'*1000+'%')
+> letters_dict = dict([(x,x) for x in letter_list])
 > ~~~
 > {: .python}
 >
-> Time how long it takes to find 'a' in `letters`. Time how long it takes to find '%' in `letters`. What 
-> do you notice?
+> Time how long it takes to find 'aaa' in `letters_dict`. Time how long it takes to find 'zzz' in `letters_list`. What 
+> do you notice? Does it take longer to find 'aaa' in `letters_dict` or `letters_list`? What about 'zzz'? Explain your 
+> findings.
 {: .challenge}
