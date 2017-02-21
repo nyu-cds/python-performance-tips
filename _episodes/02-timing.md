@@ -27,7 +27,7 @@ def my_function():
         y = y ** 0.7
     return y
 
-print timeit.timeit(my_function, number=100000)
+print(timeit.timeit(my_function, number=100000))
 ~~~
 {: .python}
 
